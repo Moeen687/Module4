@@ -36,7 +36,7 @@ app.use(bodyParser.json())
 
 // parse cookies
 app.use(cookieParser());
-
+console.log("Changing my File");
 // Create a home route
 app.get('/', (req, res) => {
     res.render('home',
